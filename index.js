@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 import {
   Text,
   FlatList,
-  TextInput,
   View,
   TouchableOpacity,
   Keyboard
 } from 'react-native';
+
+import {
+  TextField as TextInput,
+} from 'react-native-material-textfield';
 
 const defaultItemValue = {
   name: '', id: 0

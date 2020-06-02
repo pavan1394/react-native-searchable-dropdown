@@ -30,5 +30,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/zubairpaizer/react-native-searchable-dropdown.git"
+  },
+  "dependencies": {
+    "react-native-material-textfield": "^0.16.1"
   }
 }
